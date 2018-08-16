@@ -97,7 +97,7 @@
     <section id="quehacemos">
         <div class="container">
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-md-3">
                 <div class="autocad">
                     <h1 class="display-3 mt-5 text-center">Diseño Autocad</h1>
                     <p class="text-center">Dibujos y diseños en Autocad, renderizado basico en sketch up. <br>
@@ -105,9 +105,25 @@
                     </p>
                 </div>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-3">
+                    <div class="sketchup">
+                    <h1 class="display-3 mt-5 text-center">Diseño Sketchup</h1>
+                    <p class="text-center">Dibujos y diseños en Autocad, renderizado basico en sketch up. <br>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. A dolorum, expedita similique dolor blanditiis tempore fugit! Consequuntur ducimus optio eaque, doloremque sapiente culpa non quisquam, necessitatibus accusantium nesciunt, quasi ut!
+                    </p>
+                </div>
+                </div>
+                <div class="col-md-3">
                 <div class="web">
-                    <h1 class="display-3 mt-5 text-center">Diseño web</h1>
+                    <h1 class="display-3 mt-5 text-center">Diseño Web</h1>
+                    <p class="text-center">Diseño webs con diseño responsivo, el cual se adapta a cualquier pantalla. <br>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit, asperiores tenetur. Voluptate, expedita. Excepturi ad voluptates aliquam suscipit sit nobis facilis. Sit eum harum pariatur consequatur delectus quis soluta labore!
+                    </p>
+                </div>
+                </div>
+                    <div class="col-md-3">
+                    <div class="gamedesign">
+                    <h1 class="display-3 mt-5 text-center">Game Design</h1>
                     <p class="text-center">Diseño webs con diseño responsivo, el cual se adapta a cualquier pantalla. <br>
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit, asperiores tenetur. Voluptate, expedita. Excepturi ad voluptates aliquam suscipit sit nobis facilis. Sit eum harum pariatur consequatur delectus quis soluta labore!
                     </p>
@@ -167,7 +183,16 @@
             origin: 'right',
             distance: '300px'
         })
-        
+        sr.reveal('.infoalf',{
+            duration: 2000,
+            origin: 'left',
+            distance: '300px'
+        })
+        sr.reveal('.infofau',{
+            duration: 2000,
+            origin: 'right',
+            distance: '300px'
+        })
         //scroll smooth
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function (e) {
